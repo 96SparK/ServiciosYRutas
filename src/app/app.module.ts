@@ -18,13 +18,13 @@ import { FormsModule } from '@angular/forms';
     RegistroComponent,
     CrearComponent,
     ConsultarComponent,
-    DetallesComponent,
-    FormsModule
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppRutas
+    AppRutas,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
